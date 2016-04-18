@@ -1,0 +1,24 @@
+﻿html{overflow:hidden;}
+body{margin: 8px;font-size: 12px;-webkit-touch-callout: none;-webkit-user-select: none;background-color:transparent;}
+.mainbox{background-color: white;box-shadow: 0 0 15px black, 0 0 5px black;text-align: center; width:107px;height: 218px;  border: 1px solid rgb(116, 115, 115);}
+.functionlist{list-style: none;
+margin-top: 8px;
+padding-left: 0px;
+text-align: center;
+line-height: 30px;
+}
+.functionlist li{background-position-y: 5px;background-repeat: no-repeat;
+background-position-x: 10px;cursor: pointer;text-align: left;padding-left: 35px;
+}
+
+
+.functionlist .l1{background-image: url(images/menu1/1.jpg);}
+.functionlist .l2{background-image: url(images/menu1/2.jpg);}
+.functionlist .l3{background-image: url(images/menu1/3.jpg);}
+.functionlist .l4{background-image: url(images/menu1/4.jpg);}
+.functionlist .l5{background-image: url(images/menu1/5.jpg);}
+.functionlist .l6{background-image: url(images/menu1/6.jpg);}
+.functionlist .l7{background-image: url(images/menu1/7.jpg);}
+.functionlist li:hover {
+background-color: rgb(10, 118, 255);
+}

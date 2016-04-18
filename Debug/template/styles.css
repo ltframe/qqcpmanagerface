@@ -1,0 +1,58 @@
+﻿
+html{overflow:hidden;}
+body{margin: 9px;font-size: 12px;-webkit-touch-callout: none;-webkit-user-select: none;background-color:transparent;}
+.mainbox{background-image: url(images/bg/1.jpg);width:842px;height: 522px;box-shadow: 0 0 15px black, 0 0 5px black;border: 1px solid;}
+.subbox1{float:left;width:100%;height: 137px;background-color:transparent;}
+.subbox1login{color:white;top: 8px;position: relative;left: 8px;font-size: 14px;}
+.subbox1login a{color:white;}
+.subbox2{float:left;width:100%;height: 49px;background-color: #EDF3FC;}
+.subbox3{float:left;width:100%;height: 300px;background-color: white;border-bottom: 1px solid #EBEBEB;}
+.subbox4{float:left;width:100%;height: 34px;background-color: white;}
+#touxiangdiv{float: left; top: 4px;left: 5px;position: relative;width: 26px;height: 26px;border-radius: 50%;  background-color: rgba(64, 64, 64, 0.86);}
+#touxiangdivimg{width:18px;height:18px; position: relative;top: 7px;left: 5px;opacity: 0.5}
+#touxiangdivimg:hover{opacity:1;cursor:pointer;}
+.subbox1_button{position: relative;left: 130px;width: 165px;height: 51px;background-color: #00C249;float: left;top: 35px;}
+
+.subbox2 li{height: 49px;font-size: 16px;cursor: pointer;}
+.subbox2 li:hover{color:rgb(76, 138, 224);}
+.subbox2 img{float:left}
+.subbox2 span{position: relative;top:4px;}
+.subbox2 ul{list-style: none;margin-top: 12px;  padding-left: 33px;}
+.subbox1_button:hover{background-color: #15CF5B;}
+
+.subbox4_1{right: 18px;position: RELATIVE;float: right;top: 7px;}
+.subbox4_1 img{position: RELATIVE;top:2px;}
+.subbox3 ul{  padding-top: 53px;position: relative;left: 57px; float: left;list-style: none;width: 100%;}
+.subbox3 li{float: left;width: 256px;}
+.rg div{float: left;width: 109px;text-align: center;}
+.rg div:hover{
+
+	background-color: rgb(237, 237, 237);
+}
+#login:hover{text-decoration:underline;cursor:pointer;}
+
+.closeandmin{  padding-top: 11px;  text-align: right;float: right;padding-right: 15px;}
+.closeandmin img{margin-left: 10px}
+
+
+#close{-webkit-transition:-webkit-transform 0.5s;}
+#close:hover
+{
+	-webkit-transform:rotate(360deg);
+}
+
+#min{-webkit-transition:-webkit-transform 0.5s;position: relative;}
+#min:hover
+{
+	top: 5px;
+}
+
+.skindiv{z-index:999;display:none;background-color: white;width: 210px;height: 91px;border: 1px solid #000000;float: right;position: absolute;}
+.skindiv ul{  margin-left: 0px;
+  list-style: none;
+  padding-left: 0px;
+  margin-top: 0px;}
+.skindiv li{  padding-left: 0px;
+  margin-left: 4px;
+  float: left;
+  width: 31%;}

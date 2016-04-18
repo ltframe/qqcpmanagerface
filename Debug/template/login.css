@@ -1,0 +1,8 @@
+﻿html{overflow:hidden;}
+body{margin: 0px;font-size: 12px;-webkit-touch-callout: none;-webkit-user-select: none;background-color:transparent;}
+.mainbox{text-align: center; background-image: url(images/bg/1.jpg);width:388px;height: 266px;}
+.mainbox div{ float: left;width: 386px;left:1px;  position: relative;}
+.loginbox{}
+.loginbox input:hover{border: 1px solid border-color:rgb(32, 72, 238);}
+a{padding-left: 9px;color:#2972D6;cursor: pointer;}
+.close:hover{background-color: red};
